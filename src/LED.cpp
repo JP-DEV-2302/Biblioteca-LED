@@ -49,7 +49,6 @@ void Led::piscar()
     estado = HIGH;
     tempoEspera = 500;
     apagarNoTempo = false;
-    estadoPiscar = false;
     repeticoes = -1;
 }
 
